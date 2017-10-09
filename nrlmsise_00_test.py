@@ -28,10 +28,10 @@ This is the test program, and the output should be compaired to
  */
 """
 
+from __future__ import print_function
 import time
 from nrlmsise_00_header import *
 from nrlmsise_00 import *
-from __future__ import print_function
 
 def test_gtd7():
     output = [nrlmsise_output() for _ in range(17)]
